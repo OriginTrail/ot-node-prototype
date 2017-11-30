@@ -1,0 +1,42 @@
+{
+  "name": "ot-node-prototype",
+  "version": "0.1.0",
+  "description": "Prototype node for OriginTrail",
+  "main": "config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "aql": "^0.0.3-alpha",
+    "arangojs": "^5.7.1",
+    "async": "^2.6.0",
+    "ganache-cli": "^6.0.3",
+    "iota.lib.js": "^0.4.3",
+    "ipware": "^1.0.0",
+    "js-sha3": "^0.6.1",
+    "kad": "^2.4.1",
+    "kad-quasar": "^2.1.0",
+    "leveldown": "^2.0.1",
+    "levelup": "^2.0.1",
+    "public-ip": "^2.3.5",
+    "restify": "^6.3.2",
+    "sanitize-filename": "^1.6.1",
+    "solidity-sha3": "^0.4.1",
+    "web3": "0.20.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "ipc": "node ipc-api.js",
+    "rpc": "node rpc-api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/origintrail/ot-node-prototype.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/origintrail/ot-node-prototype/issues"
+  },
+  "homepage": "https://github.com/origintrail/ot-node-prototype#readme"
+}

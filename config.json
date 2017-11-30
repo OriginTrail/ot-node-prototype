@@ -1,0 +1,38 @@
+{
+    "NODE_IP": "127.0.0.1",
+    "DB_TYPE": "arango",
+    "DB_USERNAME": "YOUR_DB_USERNAME",
+    "DB_PASSWORD": "YOUR_DB_PASSWORD",
+    "DB_HOST": "localhost",
+    "DB_PORT": "8529",
+    "DB_DATABASE": "origintrail",
+    "MAX_PATH_LENGTH": "1000",
+    "RPC_API_PORT": "8888",
+    "IPC_API_PORT": "8765",
+    "KADEMLIA_PORT": "8555",
+    "WALLET_ID": "ETH_WALLET_ADDRESS",
+    "KADEMLIA_SEED_IP": "127.0.0.1",
+    "KADEMLIA_SEED_PORT": "1778",
+    "REQUEST_TIMEOUT": "10000",
+    "blockchain":{
+        "preferred_chain": "ethereum",
+        "settings":{
+            "ethereum" : {
+                "network": "mainnet",
+                "contract_address":  "0x116d3fac61c54f3747acecd058c845834ca394d1",
+                "contract_abi": "modules/blockchain_interface/ethereum/contracts/contract_abi.js",
+                "rpc_node" : "ETHEREUM_NODE_RPC_ADDRESS",
+                "node_port": "ETHEREUM_NODE_RPC_PORT",
+                "password" : "ETHEREUM_NODE_PASSWORD"
+            },
+            "iota": {
+                "provider": "http://node02.iotatoken.nl:14265",
+                "seed": "YOUR_IOTA_SEED"
+
+            },
+            "neo":{
+                "i":"// TODO: setup testing Neo node"
+            }
+        }
+    }
+}
